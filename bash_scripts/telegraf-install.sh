@@ -1,5 +1,6 @@
 #!/bin/sh
 
+sudo mkdir /var/log/telegraf/
 sudo touch /var/log/telegraf/telegraf.log
 sudo chmod 775 /var/log/telegraf/telegraf.log
 
