@@ -37,7 +37,7 @@ if ($handle = opendir($dir)) {
                         $json_len_telegraf = strlen($json_msg_telegraf);
 
                         //Send to telegraf json listener
-                        if ( socket_sendto($telegrafSocket, $json_msg_telegraf, $json_len_telegraf, 0, 'localhost', 8092) !== false )
+                        if ( socket_sendto($telegrafSocket, $json_msg_telegraf, $json_len_telegraf, 0, 'localhost', 8094) !== false )
 			{
 				//nothing
 				//echo "GOOD! \n";
