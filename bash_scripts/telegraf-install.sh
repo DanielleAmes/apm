@@ -10,3 +10,8 @@ telegraf -sample-config -input-filter socket_listener:mem:cpu -output-filter inf
 
 sudo cp ../telegraf.conf /etc/telegraf/telegraf.conf
 
+sudo service telegraf start
+
+sudo service telegraf status
+
+cat /var/log/telegraf/telegraf.log

@@ -7,6 +7,13 @@ create the Full Demo version.
 
 Be sure to make your own edits or generate a custom
 Telegraf config.
+
+## Bash Scripts
+
+These are created to automatically install the information
+needed during presentation. This will avoid having to type
+things in front of an audiance. Whoo!
+
 ## PHP Read Files
 PHP-file-demo is a set of files to just throw in data about
 how long a file takes to be "processed". This processing is
@@ -24,8 +31,8 @@ Run in background (and run multiples) with:
 [Google Slides](https://docs.google.com/presentation/d/1ce_sEqjtOWH22DmGUx8yhnbPm-1KgoiZJehPmXpBRjQ/edit?usp=sharing)
 
 ## Other Helpful Links
-[InfluxDB Documentation v1.2](https://docs.influxdata.com/influxdb/v1.2/)
+[InfluxDB Documentation v1.5](https://docs.influxdata.com/influxdb/v1.5/)
 
-[Telegraf Documentation v1.2](https://docs.influxdata.com/telegraf/v1.2/)
+[Telegraf Documentation v1.6](https://docs.influxdata.com/telegraf/v1.6/)
 
 [Grafana Documentation](http://docs.grafana.org/)
